@@ -6,10 +6,12 @@ public class EmployeeTax {
 
 		TaxCalculator t = new TaxCalculator();// object of Taxcalculator
 		t.basicSalary = 25000;// invoking values
+		t.citizenship=true;
 		t.calculateTax();// method calling
 		t.deductTax();// method calling
 		t.validateSalary();// method calling
 		t.basicSalary = 125000;// invoking values
+		t.citizenship=true;
 		t.calculateTax();// method calling
 		t.deductTax();// method calling
 		t.validateSalary();// method calling
