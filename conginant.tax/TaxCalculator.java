@@ -62,7 +62,7 @@ public class TaxCalculator {
 
 	// problem statment 4
 	void validateSalary() {
-		boolean b = (basicSalary > 100000);
+		boolean b = (basicSalary > 100000)  && citizenship==true;
 		System.out.println("The salary And citizenship eligibility :" + b);
 	}
 }
